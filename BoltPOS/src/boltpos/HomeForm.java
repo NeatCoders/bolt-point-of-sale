@@ -11,10 +11,16 @@ package boltpos;
  */
 public class HomeForm extends javax.swing.JFrame {
 
+    javax.swing.JFrame old = null;
     /**
      * Creates new form HomeForm
      */
+    public HomeForm(javax.swing.JFrame ez) {
+        this.old = ez;
+        initComponents();
+    }
     public HomeForm() {
+        this.old = null;
         initComponents();
     }
 
@@ -359,7 +365,8 @@ public class HomeForm extends javax.swing.JFrame {
     }// </editor-fold>//GEN-END:initComponents
 
     private void onClickNewSale(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_onClickNewSale
-        System.out.println("CLicked New Sale btn");
+        new NewSaleForm(this).setVisible(true);
+        this.setVisible(false);
     }//GEN-LAST:event_onClickNewSale
 
     private void onClickCloseBtn(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_onClickCloseBtn
