@@ -4,6 +4,21 @@
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 A point-of-sale application built for the ease of businesses.
 
+To-do:
+1. Add layouts:<br>
+  a. Sales history<br>
+  b. Login<br>
+  c. Settings<br>
+  d. Add new user<br>
+  e. Remove user<br>
+  .. more TBA<br>
+  
+2. Add functionalities to the layout.
+
+3. MySQL / SQLite -> SQLite preferred
+
+4. Color and GUI improvements 
+
 Some constraint to check before making any edit:
 1. Your new layout (if added any) must be of 800x600 size.
 2. It must match the color palette used throughout.
