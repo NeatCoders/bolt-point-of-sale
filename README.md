@@ -15,7 +15,7 @@ To-do:
   
 2. Add functionalities to the layout.
 
-3. MySQL / SQLite -> SQLite preferred
+3. SQLite integration needed
 
 4. Color and GUI improvements 
 
