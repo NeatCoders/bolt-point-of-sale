@@ -6,11 +6,9 @@ A point-of-sale application built for the ease of businesses.
 
 To-do:
 1. Add layouts:<br>
-  a. Sales history<br>
-  b. Login<br>
-  c. Settings<br>
-  d. Add new user<br>
-  e. Remove user<br>
+  a. Settings<br>
+  b. Add new user<br>
+  c. Remove user<br>
   .. more TBA<br>
   
 2. Add functionalities to the layout.
