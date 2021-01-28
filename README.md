@@ -6,7 +6,6 @@ A point-of-sale application built for the ease of businesses.
 
 To-do:
 1. Add layouts:<br>
-  b. Login<br>
   c. Settings<br>
   d. Add new user<br>
   e. Remove user<br>
